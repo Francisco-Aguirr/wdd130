@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+:root{
+    --primary-color: #21a0a0;
+    --secondary-color: #FFBA49;
+    --accent1-color: #D7C0AD;
+    --accent2-color: #561F37;  
+}
+
+h1, h2{
+    color: var(--primary-color);
+    margin: 1rem;
+}
+p {
+    padding: 0;
+    margin: 1rem;
+}
+
+.social-media-icons{
+    text-decoration: none;
+}
+
+.hero{
+    position: relative;
+}
+
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+article h1{
+    position: absolute;
+}
+ article{
+    background: var(--primary-color);
+ }
+.happy-customer{
+    width: 50px;
+    height: auto;
+}
