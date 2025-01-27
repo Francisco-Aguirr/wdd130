@@ -89,12 +89,12 @@ aside h2{
     padding-left: 2rem;
 }
 
-header, .grid, footer{
+header, footer, .grid{
     max-width: 840px;
     margin: 0 auto;
 }
 
-.grid{
+.grid {
     display: grid;
     align-items: center;
 }
