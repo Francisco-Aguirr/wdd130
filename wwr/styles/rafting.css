@@ -142,13 +142,15 @@ header img {
 .adventure {
     text-align: center;
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: auto;
     padding: 20px;
 }
   
 .adventure h2 {
+    font-family: 'Bebas Neue', sans-serif;
     font-size: 2rem;
-    margin-bottom: 20px;}
+    margin-bottom: 20px;
+}
   
 .adventure .gallery {
     display: grid;
@@ -165,7 +167,6 @@ header img {
     width: 150px;
     height: 150px;
     object-fit: cover;
-    background-color: #e0e0e0; /* Placeholder color */
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -176,7 +177,12 @@ header img {
     color: #555;
 }
   
-
+.item figcaption {
+    margin-top: 8px;
+    font-size: 0.9rem;
+    font-family: 'Lato', sans-serif; /* Apply Google font */
+    color: #555; /* Subtle text color */
+}
 .footer {
     display: flex;
     justify-content: space-between;
