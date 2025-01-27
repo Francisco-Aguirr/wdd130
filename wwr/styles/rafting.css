@@ -27,18 +27,42 @@ p {
     position: relative;
 }
 
-.hero img{
+.hero > img{
     display: block;
     width: 100%;
     height: auto;
 }
-article h1{
-    position: absolute;
+
+.hero h1{
+    position: absolute; /* Permite posicionar el h1 sobre la imagen */
+    top: 20%; /* Ajusta la posición vertical */
+    left: 50%; /* Ajusta la posición horizontal */
+    transform: translate(-50%, -50%); /* Centra horizontalmente */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo negro con opacidad */
+    color: white; /* Texto blanco para contraste */
+    padding: 1rem 2rem; /* Espaciado interno */
+    border-radius: 8px; /* Esquinas redondeadas */
+    z-index: 3; /* Asegura que esté por encima de la sección */
+    text-align: center; /* Centra el texto dentro del h1 */
+    width: 100%;
 }
+
  article{
     background: var(--primary-color);
- }
-.happy-customer{
-    width: 50px;
+    position: absolute; /* Posiciona el artículo sobre la imagen */
+    top: 50%; /* Ajusta la posición vertical */
+    left: 50%; /* Ajusta la posición horizontal */
+    transform: translate(-50%, -50%); /* Centra el artículo */
+    background: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-radius: 8px; /* Opcional: añade esquinas redondeadas */
+    z-index: 2; /* Asegura que el artículo esté sobre la imagen */
+}
+
+.happy-customer {
+    float: right; /* Makes the image float to the right of the paragraph */
+    margin-left: 1rem; /* Adds spacing between the image and the text */
+    width: 160px;
     height: auto;
 }
