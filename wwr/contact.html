@@ -4,9 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Us</title>
-  <meta name="description"
-    content="contact page of a fictitious company offering whitewater rafting services containing a contact form and the user's contact information.">
+  <title>Contact | Rapids White Rafting</title>
+  <meta name="description" content="on this page you will find a form and all the contact information of 'rapids white water rafting' so you can contact us. contact page of a fictitious company offering whitewater rafting services containing a contact form and the user's contact information.">
   <meta name="author" content="Francisco J. Aguirre">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,7 +27,7 @@
   </header>
   <main>
     <section class="contact-info">
-      <h2>Meet Our Team</h2>
+      <h1>Meet Our Team</h1>
       <p>Get to know the people behind our company. We are here to help!</p>
 
       <div class="team-gallery">
@@ -48,7 +47,7 @@
     </section>
     <section class="headquarters">
       <div class="info">
-        <h3>Headquarters</h3>
+        <h2>Headquarters</h2>
         <p>La Ceiba, Honduras</p>
         <ul>
           <li>📍 Rio Cangrejal</li>
@@ -83,9 +82,9 @@
         <fieldset>
             <legend>Purpose of Your Message</legend>
             <div class="radio-group">
-                <label><input type="radio" name="purpose" value="general"><span> General Inquiry</span></label>
-                <label><input type="radio" name="purpose" value="reservation">Reservation Question</label>
-                <label><input type="radio" name="purpose" value="suggestion">Website Suggestion</label>
+                <label><input type="radio" name="purpose" value="general" id="general"><span> General Inquiry</span></label>
+                <label><input type="radio" name="purpose" value="reservation" id="reservation">Reservation Question</label>
+                <label><input type="radio" name="purpose" value="suggestion" id="suggestion">Website Suggestion</label>
             </div>
         </fieldset>
     
@@ -96,11 +95,11 @@
     
         <!-- Checkbox for Newsletter Subscription -->
         <div class="checkbox-group">
-            <input type="checkbox" name="subscribe">
+            <input type="checkbox" name="subscribe" id="subscribe">
             <label>Please subscribe me to the monthly newsletter</label>
         </div>
     
-        <button type="submit">SEND</button>
+        <button type="submit" id="submit">SEND</button>
     </form>
     
     </section>
