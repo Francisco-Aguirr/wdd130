@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <meta name="description"
+    content="contact page of a fictitious company offering whitewater rafting services containing a contact form and the user's contact information.">
+  <meta name="author" content="Francisco J. Aguirre">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Bebas+Neue&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+  <header>
+    <img src="images/rapids-logo.png" alt="rapid logo entreprise">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="trips.html">Trips</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+  </header>
+  <main>
+    <section class="contact-info">
+      <h2>Meet Our Team</h2>
+      <p>Get to know the people behind our company. We are here to help!</p>
+
+      <div class="team-gallery">
+        <div class="team-member">
+          <img src="images/employee1.png" alt="Team Member 1">
+          <p>John Doe - River Guide</p>
+        </div>
+        <div class="team-member">
+          <img src="images/employee2.jpg" alt="Team Member 2">
+          <p>Jane Smith - Safety Kayaker</p>
+        </div>
+        <div class="team-member">
+          <img src="images/employee3.jpg" alt="Team Member 3">
+          <p>Michael Brown - Trip Leader</p>
+        </div>
+      </div>
+    </section>
+    <section class="headquarters">
+      <div class="info">
+        <h3>Headquarters</h3>
+        <p>La Ceiba, Honduras</p>
+        <ul>
+          <li>📍 Rio Cangrejal</li>
+          <li>📬 504</li>
+          <li>✉️ rapid@company.com</li>
+          <li>📞 +1 617-425-018</li>
+        </ul>
+      </div>
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d9136.245562856773!2d-86.70941082454453!3d15.681260798737938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1738593063178!5m2!1ses!2ses"
+          width="600" height="450" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+
+    <section class="contact-form">
+      <h2>Send Us a Message</h2>
+      <p>Send us a message and we'll respond within 24 hours.</p>
+      <form>
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Your name">
+        </div>
+    
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Your email address">
+        </div>
+    
+        <!-- Fieldset for Radio Buttons -->
+        <fieldset>
+            <legend>Purpose of Your Message</legend>
+            <div class="radio-group">
+                <label><input type="radio" name="purpose" value="general"><span> General Inquiry</span></label>
+                <label><input type="radio" name="purpose" value="reservation">Reservation Question</label>
+                <label><input type="radio" name="purpose" value="suggestion">Website Suggestion</label>
+            </div>
+        </fieldset>
+    
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Write your message here"></textarea>
+        </div>
+    
+        <!-- Checkbox for Newsletter Subscription -->
+        <div class="checkbox-group">
+            <input type="checkbox" name="subscribe">
+            <label>Please subscribe me to the monthly newsletter</label>
+        </div>
+    
+        <button type="submit">SEND</button>
+    </form>
+    
+    </section>
+  </main>
+  <footer class="footer">
+    <p>©️ | 2025 | Rapids Water Rafting | Francisco Aguirre |</p>
+    <div class="social-media-icons">
+      <a href="https://app.moqups.com/Gi99Q3XqeHF8LuTsjNFjB00Lz9UYdF4Q/view/page/afa9d35f6">Contact Us wireframe</a>
+      <a href="facebook.com"><img src="images/facebook.png" alt="Facebook Social Media"></a>
+      <a href="instagram.com"><img src="images/instagram.png" alt="instagram Social Media"></a>
+      <a href="x.com"><img src="images/X.png" alt="X (Twitter) Social Media"></a>
+    </div>
+  </footer>
+</body>
+
+</html>
