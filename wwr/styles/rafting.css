@@ -24,7 +24,7 @@ font-family: 'Lato', sans-serif;
 }
   
 h1, h2 .highlight {
-    color: var(--primary-color);
+    
     font-family: 'Bebas Neue', cursive;
     text-transform: uppercase;
     letter-spacing: 1px; 
@@ -38,17 +38,17 @@ p {
     text-decoration: none;
 }
 
-.hero {
+.hero_ab {
     position: relative;
 }
 
-.hero > img {
+.hero_ab > img {
     display: block;
     width: 100%;
     height: auto;
 }
 
-.hero h1 {
+.hero_ab h1 {
     position: absolute; 
     top: 20%; 
     left: 50%;
