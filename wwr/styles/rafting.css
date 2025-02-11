@@ -430,7 +430,7 @@ button:hover {
 }
 .newsletter button {
     padding: 10px 20px;
-    background: #007BFF;
+    background: #093f78;
     color: white;
     border: none;
     border-radius: 5px;
@@ -472,6 +472,8 @@ button:hover {
     text-align: center;
     overflow: hidden;
 }
+
+
 .hero img {
     position: absolute;
     width: 100%;
@@ -492,7 +494,7 @@ button:hover {
 .cta-button {
     display: inline-block;
     padding: 10px 20px;
-    background: #007BFF;
+    background: #090775;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -533,6 +535,6 @@ button:hover {
     text-align: center;
 }
 .trip-table th {
-    background: #007BFF;
+    background: #124377;
     color: white;
 }
